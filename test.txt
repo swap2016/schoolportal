@@ -18,6 +18,6 @@ git add file_name and then use commit git commit -m "file-name" and push to git 
 
 
 To check the status use command git status
-
+testing
 
 
