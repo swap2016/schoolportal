@@ -6,3 +6,18 @@ swapnil
 testing
 
 where are u working
+
+command of git
+
+To update the local repository from remote
+
+git pull origin master
+
+To add file 
+git add file_name and then use commit git commit -m "file-name" and push to git using command git push -u origin master
+
+
+To check the status use command git status
+
+
+
