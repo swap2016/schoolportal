@@ -1,0 +1,12 @@
+	
+git config --global user.name "swap2016"
+git config --global user.email "dubey.swapnil@gmail.com'
+git clone https://github.com/swap2016/schoolportal.git
+
+git commit -m "added files" filename
+
+git add filename
+
+git remote remove origin
+git remote add origin http://github.com/swap2016/schoolportal.git
+git push -u origin master
