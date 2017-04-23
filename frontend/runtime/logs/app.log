@@ -1,0 +1,473 @@
+2017-04-13 17:27:38 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: E:\xampp\htdocs\schoolportal/vendor\bower/jquery/dist' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php:454
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(185): yii\web\AssetManager->publish('E:\\xampp\\htdocs...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#7 E:\xampp\htdocs\schoolportal\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 E:\xampp\htdocs\schoolportal\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 E:\xampp\htdocs\schoolportal\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-04-13 17:27:36 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2683.0 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/frontend/web/index.php'
+    'REMOTE_PORT' => '58139'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/schoolportal/frontend/web/'
+    'SCRIPT_NAME' => '/schoolportal/frontend/web/index.php'
+    'PHP_SELF' => '/schoolportal/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492097256.479
+    'REQUEST_TIME' => 1492097256
+]
+2017-04-13 17:27:38 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: E:\xampp\htdocs\schoolportal/vendor\bower/jquery/dist' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php:454
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(185): yii\web\AssetManager->publish('E:\\xampp\\htdocs...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#7 E:\xampp\htdocs\schoolportal\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 E:\xampp\htdocs\schoolportal\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 E:\xampp\htdocs\schoolportal\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-04-13 17:27:38 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2683.0 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/frontend/web/index.php'
+    'REMOTE_PORT' => '58165'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/schoolportal/frontend/web/'
+    'SCRIPT_NAME' => '/schoolportal/frontend/web/index.php'
+    'PHP_SELF' => '/schoolportal/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492097258.426
+    'REQUEST_TIME' => 1492097258
+]
+2017-04-13 17:29:46 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: E:\xampp\htdocs\schoolportal/vendor\bower/jquery/dist' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php:454
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(185): yii\web\AssetManager->publish('E:\\xampp\\htdocs...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#7 E:\xampp\htdocs\schoolportal\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 E:\xampp\htdocs\schoolportal\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 E:\xampp\htdocs\schoolportal\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-04-13 17:29:46 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2683.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/frontend/web/index.php'
+    'REMOTE_PORT' => '58197'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/schoolportal/frontend/web/'
+    'SCRIPT_NAME' => '/schoolportal/frontend/web/index.php'
+    'PHP_SELF' => '/schoolportal/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492097386.174
+    'REQUEST_TIME' => 1492097386
+]
+2017-04-13 17:30:53 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: E:\xampp\htdocs\schoolportal/vendor\bower/jquery/dist' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php:454
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(185): yii\web\AssetManager->publish('E:\\xampp\\htdocs...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#7 E:\xampp\htdocs\schoolportal\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 E:\xampp\htdocs\schoolportal\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 E:\xampp\htdocs\schoolportal\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-04-13 17:30:53 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2683.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/frontend/web/index.php'
+    'REMOTE_PORT' => '58223'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/schoolportal/frontend/web/'
+    'SCRIPT_NAME' => '/schoolportal/frontend/web/index.php'
+    'PHP_SELF' => '/schoolportal/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492097453.568
+    'REQUEST_TIME' => 1492097453
+]
+2017-04-13 17:30:54 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: E:\xampp\htdocs\schoolportal/vendor\bower/jquery/dist' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php:454
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(185): yii\web\AssetManager->publish('E:\\xampp\\htdocs...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#7 E:\xampp\htdocs\schoolportal\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 E:\xampp\htdocs\schoolportal\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 E:\xampp\htdocs\schoolportal\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-04-13 17:30:54 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2683.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/frontend/web/index.php'
+    'REMOTE_PORT' => '58224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/schoolportal/frontend/web/'
+    'SCRIPT_NAME' => '/schoolportal/frontend/web/index.php'
+    'PHP_SELF' => '/schoolportal/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492097454.011
+    'REQUEST_TIME' => 1492097454
+]
+2017-04-13 17:30:54 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: E:\xampp\htdocs\schoolportal/vendor\bower/jquery/dist' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php:454
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(185): yii\web\AssetManager->publish('E:\\xampp\\htdocs...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#7 E:\xampp\htdocs\schoolportal\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 E:\xampp\htdocs\schoolportal\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 E:\xampp\htdocs\schoolportal\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-04-13 17:30:54 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2683.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/frontend/web/index.php'
+    'REMOTE_PORT' => '58226'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/schoolportal/frontend/web/'
+    'SCRIPT_NAME' => '/schoolportal/frontend/web/index.php'
+    'PHP_SELF' => '/schoolportal/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492097454.31
+    'REQUEST_TIME' => 1492097454
+]
+2017-04-13 17:30:54 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The file or directory to be published does not exist: E:\xampp\htdocs\schoolportal/vendor\bower/jquery/dist' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php:454
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(185): yii\web\AssetManager->publish('E:\\xampp\\htdocs...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle('frontend\\assets...')
+#7 E:\xampp\htdocs\schoolportal\frontend\views\layouts\main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(frontend\controllers\SiteController))
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="sit...')
+#12 E:\xampp\htdocs\schoolportal\frontend\controllers\SiteController.php(75): yii\base\Controller->render('index')
+#13 [internal function]: frontend\controllers\SiteController->actionIndex()
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 E:\xampp\htdocs\schoolportal\frontend\web\index.php(17): yii\base\Application->run()
+#20 {main}
+2017-04-13 17:30:54 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2683.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/frontend/web/index.php'
+    'REMOTE_PORT' => '58227'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/schoolportal/frontend/web/'
+    'SCRIPT_NAME' => '/schoolportal/frontend/web/index.php'
+    'PHP_SELF' => '/schoolportal/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492097454.654
+    'REQUEST_TIME' => 1492097454
+]
