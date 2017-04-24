@@ -1,12 +1,15 @@
 <?php
 
+
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use dosamigos\datepicker\DatePicker;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Staff */
 /* @var $form yii\widgets\ActiveForm */
 ?>
+
 
 <div class="staff-form">
 
@@ -22,7 +25,18 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'staff_last_name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'staff_dob')->textInput() ?>
+    <?= $form->field($model, 'staff_dob')->widget(
+    DatePicker::className(), [
+        // inline too, not bad
+         'inline' => false,
+         // modify template for custom rendering
+      //  'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'dd-M-yyyy'
+        ]
+     ]);?>
+
 
     <?= $form->field($model, 'staff_gender')->dropDownList([ 'M' => 'Male', 'F' => 'Female'], ['prompt' => 'Select Gender']) ?>
 

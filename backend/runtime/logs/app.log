@@ -5804,3 +5804,938 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1492878596.632
     'REQUEST_TIME' => 1492878596
 ]
+2017-04-24 16:07:41 [::1][-][fb593t4eppm6t5glish2ftm5b6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "staff-education-info".' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('staff-education...', Array)
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\xampp\htdocs\schoolportal\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\xampp\htdocs\schoolportal\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-04-24 16:07:41 [::1][-][fb593t4eppm6t5glish2ftm5b6][info][application] $_GET = [
+    'r' => 'staff-education-info'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'm7q7jvantkp5t3hi8th2hu4ca4'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=m7q7jvantkp5t3hi8th2hu4ca4; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '57437'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff-education-info'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff-education-info'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493042861.348
+    'REQUEST_TIME' => 1493042861
+]
+2017-04-24 22:00:57 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dosamigos\datepicker\DatePicker' not found' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:00:57 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61429'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064057.214
+    'REQUEST_TIME' => 1493064057
+]
+2017-04-24 22:03:24 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '2' (T_LNUMBER), expecting identifier (T_STRING) or function (T_FUNCTION) or const (T_CONST) or \\ (T_NS_SEPARATOR)' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:6
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:03:24 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064204.688
+    'REQUEST_TIME' => 1493064204
+]
+2017-04-24 22:04:30 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '-', expecting ',' or ';'' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:6
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:04:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064270.202
+    'REQUEST_TIME' => 1493064270
+]
+2017-04-24 22:08:47 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dosamigos\datepicker\DatePicker' not found' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:08:47 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61515'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064527.085
+    'REQUEST_TIME' => 1493064527
+]
+2017-04-24 22:11:15 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dosamigos\datepicker\DatePicker' not found' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:11:15 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61532'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064675.382
+    'REQUEST_TIME' => 1493064675
+]
+2017-04-24 22:11:59 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dosamigos\datepicker\DatePicker' not found' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:11:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61539'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064719.836
+    'REQUEST_TIME' => 1493064719
+]
+2017-04-24 22:12:03 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dosamigos\datepicker\DatePicker' not found' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:12:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61540'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064723.19
+    'REQUEST_TIME' => 1493064723
+]
+2017-04-24 22:13:07 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dosamigos\datepicker\DatePicker' not found' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:13:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61686'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064787.582
+    'REQUEST_TIME' => 1493064787
+]
+2017-04-24 22:13:12 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'dosamigos\datepicker\DatePicker' not found' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:12
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:13:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/update'
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/index.php?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '61687'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fupdate&id=2'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493064792.495
+    'REQUEST_TIME' => 1493064792
+]
+2017-04-24 22:34:27 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Staff::date' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('date')
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\helpers\BaseHtml.php(2081): yii\db\BaseActiveRecord->__get('date')
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\helpers\BaseHtml.php(1264): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Staff), 'date')
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\helpers\BaseHtml.php(1313): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Staff), 'date', Array)
+#4 E:\xampp\htdocs\schoolportal\vendor\2amigos\yii2-date-picker-widget\src\DatePicker.php(65): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Staff), 'date', Array)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Widget.php(139): dosamigos\datepicker\DatePicker->run()
+#6 E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php(20): yii\base\Widget::widget(Array)
+#7 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, NULL)
+#10 E:\xampp\htdocs\schoolportal\backend\views\staff\create.php(20): yii\base\View->render('_form', Array)
+#11 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#12 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#13 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(backend\controllers\StaffController))
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('create', Array, Object(backend\controllers\StaffController))
+#15 E:\xampp\htdocs\schoolportal\backend\controllers\StaffController.php(79): yii\base\Controller->render('create', Array)
+#16 [internal function]: backend\controllers\StaffController->actionCreate()
+#17 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#19 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#20 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('staff/create', Array)
+#21 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 E:\xampp\htdocs\schoolportal\backend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2017-04-24 22:34:27 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/create'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '62044'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fcreate'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fcreate'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493066067.297
+    'REQUEST_TIME' => 1493066067
+]
+2017-04-24 22:35:07 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: backend\models\Staff::date' in E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\db\BaseActiveRecord.php(286): yii\base\Component->__get('date')
+#1 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\helpers\BaseHtml.php(2081): yii\db\BaseActiveRecord->__get('date')
+#2 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\helpers\BaseHtml.php(1264): yii\helpers\BaseHtml::getAttributeValue(Object(backend\models\Staff), 'date')
+#3 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\helpers\BaseHtml.php(1313): yii\helpers\BaseHtml::activeInput('text', Object(backend\models\Staff), 'date', Array)
+#4 E:\xampp\htdocs\schoolportal\vendor\2amigos\yii2-date-picker-widget\src\DatePicker.php(65): yii\helpers\BaseHtml::activeTextInput(Object(backend\models\Staff), 'date', Array)
+#5 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Widget.php(139): dosamigos\datepicker\DatePicker->run()
+#6 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\widgets\ActiveField.php(725): yii\base\Widget::widget(Array)
+#7 E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php(48): yii\widgets\ActiveField->widget('dosamigos\\datep...', Array)
+#8 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#10 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, NULL)
+#11 E:\xampp\htdocs\schoolportal\backend\views\staff\create.php(20): yii\base\View->render('_form', Array)
+#12 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(328): require('E:\\xampp\\htdocs...')
+#13 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\xampp\\htdocs...', Array)
+#14 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\xampp\\htdocs...', Array, Object(backend\controllers\StaffController))
+#15 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('create', Array, Object(backend\controllers\StaffController))
+#16 E:\xampp\htdocs\schoolportal\backend\controllers\StaffController.php(79): yii\base\Controller->render('create', Array)
+#17 [internal function]: backend\controllers\StaffController->actionCreate()
+#18 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#19 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#20 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#21 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('staff/create', Array)
+#22 E:\xampp\htdocs\schoolportal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 E:\xampp\htdocs\schoolportal\backend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+2017-04-24 22:35:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/create'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '62055'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fcreate'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fcreate'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493066106.591
+    'REQUEST_TIME' => 1493066106
+]
+2017-04-24 22:45:09 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''clientOptions'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:45:09 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/create'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '62149'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fcreate'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fcreate'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493066709.843
+    'REQUEST_TIME' => 1493066709
+]
+2017-04-24 22:45:12 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''clientOptions'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in E:\xampp\htdocs\schoolportal\backend\views\staff\_form.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-24 22:45:12 [::1][-][-][info][application] $_GET = [
+    'r' => 'staff/create'
+]
+
+$_COOKIE = [
+    'TestCookie' => 'visited'
+    'advanced-backend' => 'fb593t4eppm6t5glish2ftm5b6'
+    '_csrf-backend' => '3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"kyr713oOTOVU_OkVXtXkZhUU_cweurC8\";}'
+    'PHPSESSID' => 'b32hj8hto0vtaj7rcfmtmn2q40'
+    '_identity-backend' => 'f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'E:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/schoolportal/backend/web/?r=staff'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'TestCookie=visited; advanced-backend=fb593t4eppm6t5glish2ftm5b6; _csrf-backend=3f4b52a558356b18369609ffe6be2002a0c5243dc40ec59d362403b1d5770f34a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kyr713oOTOVU_OkVXtXkZhUU_cweurC8%22%3B%7D; PHPSESSID=b32hj8hto0vtaj7rcfmtmn2q40; _identity-backend=f907f9071ea72177541bcbd11daed6d0c713f8b2f266dddca503e26732629191a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22S1UaqtqrRrJwsEeDIMkawaKJrnkTfhfO%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Java\\jdk1.8.0_102\\bin;C:\\Program Files\\Java\\jre1.8.0_102\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.7\\bin;E:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\asus\\Anaconda3;C:\\Users\\asus\\Anaconda3\\Scripts;C:\\Users\\asus\\Anaconda3\\Library\\bin;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\Scripts\\;C:\\Users\\asus\\AppData\\Local\\Programs\\Python\\Python35-32\\;C:\\Users\\asus\\AppData\\Local\\atom\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/xampp/htdocs/schoolportal/backend/web/index.php'
+    'REMOTE_PORT' => '62150'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=staff%2Fcreate'
+    'REQUEST_URI' => '/schoolportal/backend/web/index.php?r=staff%2Fcreate'
+    'SCRIPT_NAME' => '/schoolportal/backend/web/index.php'
+    'PHP_SELF' => '/schoolportal/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493066712.61
+    'REQUEST_TIME' => 1493066712
+]
