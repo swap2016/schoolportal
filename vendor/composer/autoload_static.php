@@ -29,6 +29,10 @@ class ComposerStaticInit3d5ffa9fe35f767bf14ef44be736d7c6
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'e' => 
+        array (
+            'etsoft\\widgets\\' => 15,
+        ),
         'd' => 
         array (
             'dosamigos\\datepicker\\' => 21,
@@ -113,6 +117,10 @@ class ComposerStaticInit3d5ffa9fe35f767bf14ef44be736d7c6
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'etsoft\\widgets\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/et-soft/yii2-widget-select-year',
         ),
         'dosamigos\\datepicker\\' => 
         array (

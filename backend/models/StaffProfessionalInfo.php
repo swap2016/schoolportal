@@ -53,7 +53,7 @@ class StaffProfessionalInfo extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'staff_id' => 'StaffProfessionalInfo ID',
+            'staff_id' => 'Staff ID',
             'staff_appointment_date' => 'Appointment Date',
             'staff_designation' => 'Designation',
             'staff_mode_recruitment' => 'Mode Of Recruitment',

@@ -62,6 +62,7 @@ class StaffProfessionalInfoController extends Controller
         ]);
     }
 
+
     /**
      * Creates a new StaffProfessionalInfo model.
      * If creation is successful, the browser will be redirected to the 'view' page.
@@ -71,9 +72,22 @@ class StaffProfessionalInfoController extends Controller
     {
         $model = new StaffProfessionalInfo();
 
+        $model->staff_id = Yii::$app->request->post('staff_id');
+    
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+
+            if (Yii::$app->request->post('submit') =='create_next') {
+
+                 return $this->redirect(['staff-education-information/create', 'id' => $model->staff_id]);
+
+              } else {
+
+                 return $this->redirect(['view', 'id' => $model->id]);
+             }
         } else {
+
+             $model->staff_id = Yii::$app->request->get('id');
+
             return $this->render('create', [
                 'model' => $model,
             ]);
@@ -91,6 +105,16 @@ class StaffProfessionalInfoController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+
+             if (Yii::$app->request->post('submit') =='update_next') {
+
+                 return $this->redirect(['staff-education-information/create', 'id' => $model->staff_id]);
+
+              } else {
+
+                 return $this->redirect(['view', 'id' => $model->id]);
+             }
+
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [

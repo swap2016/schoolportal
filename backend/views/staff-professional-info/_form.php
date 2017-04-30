@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use dosamigos\datepicker\DatePicker;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\StaffProfessionalInfo */
@@ -12,9 +13,24 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'staff_id')->textInput() ?>
+     <div class="form-group">
+        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
 
-    <?= $form->field($model, 'staff_appointment_date')->textInput() ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Create and Next' : 'Update and Next', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary','value'=>$model->isNewRecord?'create_next':'update_next','name'=>'submit']) ?>
+
+    </div>
+
+    <?= $form->field($model, 'staff_appointment_date')->widget(
+    DatePicker::className(), [
+        // inline too, not bad
+         'inline' => false,
+         // modify template for custom rendering
+         //'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-mm-dd'
+        ]
+     ]);?>
 
     <?= $form->field($model, 'staff_designation')->textInput(['maxlength' => true]) ?>
 
@@ -26,7 +42,17 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'staff_salary')->textInput() ?>
 
-    <?= $form->field($model, 'staff_retirement')->textInput() ?>
+    <?= $form->field($model, 'staff_retirement')->widget(
+    DatePicker::className(), [
+        // inline too, not bad
+         'inline' => false,
+         // modify template for custom rendering
+         //'template' => '<div class="well well-sm" style="background-color: #fff; width:250px">{input}</div>',
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-mm-dd'
+        ]
+     ]);?>
 
     <?= $form->field($model, 'staff_deduction_type')->dropDownList([ 'GPF' => 'GPF', 'CPS' => 'CPS'], ['prompt' => 'Select Deduction Type']) ?>
 
@@ -36,8 +62,14 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'staff_esalary_code')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'staff_id')->hiddenInput()->label(false) ?>
+
+
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord  ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+
+        <?= Html::submitButton($model->isNewRecord ? 'Create and Next' : 'Update and Next', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary','value'=>$model->isNewRecord?'create_next':'update_next','name'=>'submit']) ?>
+
     </div>
 
     <?php ActiveForm::end(); ?>

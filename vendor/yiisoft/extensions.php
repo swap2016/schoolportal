@@ -57,4 +57,13 @@ return array (
       '@dosamigos/datepicker' => $vendorDir . '/2amigos/yii2-date-picker-widget/src',
     ),
   ),
+  'et-soft/yii2-widget-select-year' => 
+  array (
+    'name' => 'et-soft/yii2-widget-select-year',
+    'version' => '1.0.0.0',
+    'alias' => 
+    array (
+      '@etsoft/widgets' => $vendorDir . '/et-soft/yii2-widget-select-year',
+    ),
+  ),
 );

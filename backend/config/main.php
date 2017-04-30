@@ -37,6 +37,10 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+       'formatter' => [
+       'defaultTimeZone' => 'UTC',
+       'timeZone' => 'Asia/Kolkata'
+       ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

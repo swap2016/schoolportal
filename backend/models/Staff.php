@@ -57,17 +57,17 @@ class Staff extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-                [['staff_school_id', 'staff_branch_id', 'staff_first_name','staff_last_name', 'staff_dob', 'staff_gender', 'staff_mobile_no', 'staff_email', 'staff_marital_status', 'staff_identity_mark', 'staff_parent_name', 'staff_medical_fitness', 'staff_character_cerificate', 'staff_height', 'staff_cast', 'staff_category', 'staff_religion', 'staff_blood_group', 'staff_state_name', 'staff_city_name', 'staff_present_address', 'staff_present_state', 'staff_preset_city', 'staff_present_pincode', 'staff_permanent_address', 'staff_permanent_state', 'staff_permanent_city', 'staff_permanent_pincode'], 'required'],
+                [['staff_school_id', 'staff_first_name','staff_last_name', 'staff_dob', 'staff_gender', 'staff_mobile_no', 'staff_email', 'staff_marital_status', 'staff_identity_mark', 'staff_parent_name', 'staff_height', 'staff_cast', 'staff_category', 'staff_religion', 'staff_blood_group', 'staff_state_name', 'staff_city_name', 'staff_present_address', 'staff_present_state', 'staff_preset_city', 'staff_present_pincode', 'staff_permanent_address', 'staff_permanent_state', 'staff_permanent_city', 'staff_permanent_pincode'], 'required'],
 
            // [['staff_school_id', 'staff_branch_id', 'staff_first_name','staff_last_name'], 'required'],
 
-            [['staff_school_id', 'staff_branch_id', 'staff_mobile_no', 'staff_medical_fitness', 'staff_character_cerificate', 'staff_height', 'staff_present_pincode', 'staff_permanent_pincode'], 'integer'],
+            [['staff_school_id','staff_mobile_no', 'staff_medical_fitness', 'staff_character_cerificate', 'staff_height', 'staff_present_pincode', 'staff_permanent_pincode'], 'integer'],
             [['staff_dob', 'staff_created', 'staff_modified'], 'safe'],
+
 
             [['staff_gender', 'staff_present_address', 'staff_permanent_address','staff_marital_status'], 'string'],
 
-            [['staff_first_name', 'staff_middle_name', 'staff_last_name', 'staff_email', 'staff_identity_mark', 'staff_parent_name', 'staff_cast', 'staff_category', 'staff_religion', 'staff_blood_group', 'staff_state_name', 'staff_city_name', 'staff_nearest_railway_station', 'staff_present_state', 'staff_preset_city', 'staff_permanent_state', 'staff_permanent_city'], 'string', 'max' => 255],
-            [['staff_branch_id'], 'unique'],
+            [['staff_first_name', 'staff_middle_name', 'staff_last_name', 'staff_email', 'staff_identity_mark', 'staff_parent_name', 'staff_cast', 'staff_category', 'staff_religion', 'staff_blood_group', 'staff_state_name', 'staff_city_name', 'staff_nearest_railway_station', 'staff_present_state', 'staff_preset_city', 'staff_permanent_state', 'staff_permanent_city'], 'string', 'max' => 255]
         ];
     }
 

@@ -65,9 +65,26 @@ class StaffEducationInformationController extends Controller
     {
         $model = new StaffEducationInformation();
 
+        $model->staff_id = Yii::$app->request->post('staff_id');
+
+        $model->created = date('Y-m-d H:m:s');
+
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+
+             if (Yii::$app->request->post('submit') =='create_next') {
+
+                 return $this->redirect(['staff-training-details/create', 'id' => $model->staff_id]);
+
+              } else {
+
+                 return $this->redirect(['view', 'id' => $model->id]);
+             }
+
         } else {
+
+            $model->staff_id = Yii::$app->request->get('id');
+
             return $this->render('create', [
                 'model' => $model,
             ]);

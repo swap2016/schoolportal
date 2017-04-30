@@ -67,13 +67,18 @@ class StaffController extends Controller
     {
         $model = new Staff();
 
-        echo "create";
-
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
-        } else {
 
-            echo "else";
+            if (Yii::$app->request->post('submit') =='create_next') {
+
+                 return $this->redirect(['staff-professional-info/create', 'id' => $model->id]);
+
+              } else {
+
+                 return $this->redirect(['view', 'id' => $model->id]);
+             }
+            
+         } else {
             return $this->render('create', [
                 'model' => $model,
             ]);

@@ -60,4 +60,14 @@ class StaffEducationInformation extends \yii\db\ActiveRecord
             'modified' => 'Modified',
         ];
     }
+
+    public function getYearsList() {
+
+      $currentYear = date('Y')-20;
+      $yearFrom = 2013;
+      $yearsRange = range($yearFrom, $currentYear);
+      return array_combine($yearsRange, $yearsRange);
+      
+}
+
 }
